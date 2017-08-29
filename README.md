@@ -2,7 +2,7 @@
 
 Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a una fecha y hora y la IP del dispositivo.
 
-Autores:
+Alumnos:
 
 +Alfaro Diego
 
@@ -11,6 +11,10 @@ Autores:
 +Garcia Alejo
 
 +Venditti Juan Pablo
+
+Profesor:
+
++Hoet Leonardo
 
 Secciones:
 
