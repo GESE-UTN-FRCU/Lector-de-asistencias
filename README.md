@@ -1,15 +1,15 @@
-### Proyecto lector de asistencias
+# Proyecto lector de asistencias
 
 Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a una fecha y hora y la IP del dispositivo. Este sistema fue diseñado para implementarse en la UTN-FRCU.
 
-# Componentes utilizados:
+## Componentes utilizados:
 +Arduino nano
 +DS3231
 +ENC28J60
 +RC522
 +LCD 16x2
 
-# Alumnos:
+## Alumnos:
 
 +Alfaro Diego
 
@@ -19,11 +19,11 @@ Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a un
 
 +Venditti Juan Pablo
 
-# Profesor:
+## Profesor:
 
 +Hoet Leonardo
 
-## Secciones:
+### Secciones:
 
 +LectorUTN      - Contiene el codigo arduino en C del lector (este se sube en .
 
@@ -31,9 +31,9 @@ Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a un
 
 +Pagina web     - Contiene la pagina web a la que enviara datos el lector.
 
-### MANUAL DE USUARIO
+# MANUAL DE USUARIO
 
-# Configuración del dispositivo
+## Configuración del dispositivo
 
 Para el funcionamiento del sistema, primero es necesario establecer su configuración inicial. En esta, se tendrá que asignar al dispositivo un gateway (dirección IP del modem), una dirección ip del dispositivo, una dirección ip del servidor, una máscara de subred y un puerto (80 por defecto). 
 Para realizar esta configuración se debe ingresar al modo de configuración del dispositivo. Para entrar al modo de configuración el usuario tiene que presionar el botón correspondiente al iniciar el sistema, cuando la pantalla está vacía.
@@ -44,7 +44,7 @@ Una vez dentro de la página web, se deberá completar los campos correspondient
 ADVERTENCIA: Una vez pasado el dispositivo a modo configuración, todas las lecturas guardadas en memoria serán eliminadas.
 
 
-# Modo lector de tarjetas
+## Modo lector de tarjetas
 
 Para llevar a cabo el proceso de lectura de tarjetas, solo es necesario pasar la tarjeta a corta distancia por delante del dispositivo.
 
@@ -56,7 +56,7 @@ El dispositivo no se debe encontrar en modo configuración, mostrando en pantall
 El dispositivo actualizará su fecha y hora realizando una petición al servidor cada dos horas. Cuando esto sucede, se mostrará un mensaje “Actualizando...” en la pantalla.
 
 
-# Modo envío de datos
+## Modo envío de datos
 
 Este modo consiste en el envío al servidor de los datos recolectados en las últimas lecturas y que no hayan sido enviados y confirmados por el servidor previamente.
 Este modo se encuentra disponible en el horario entre las 2 a.m. y las 4 a.m. a lo largo de todos los días del año.
