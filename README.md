@@ -9,7 +9,7 @@ Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a un
 +RC522
 +LCD 16x2
 
-## Alumnos:
+## Integrantes:
 
 +Alfaro Diego
 
@@ -22,6 +22,16 @@ Este proyecto es un lector de tarjetas RFID que envia el codigo leido junto a un
 ## Profesor:
 
 +Hoet Leonardo
+
+### TO DO (segun importancia)
+
++Cambiar headers a librerias bien planteadas.
+
++Chequear overflow del millis o hacer un reset por mes.
+
++Agregar seguridad a el dispositivo.
+
++
 
 ### Secciones:
 
